@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">OCRTestApplication</string>
+
+
+    //메인
+    <string name="main_button1" translatable="false">실시간 도착버스조회</string>
+    <string name="main_button2" translatable="false">버스 운행 시간표</string>
+    <string name="main_button3" translatable="false">탑승할 버스 체크</string>
+    <string name="main_button4" translatable="false">버스 분실물 찾기</string>
+    <string name="main_button5" translatable="false">버스 여행 리뷰</string>
+    <string name="main_button6" translatable="false">언어 재 설정</string>
+
+
+    //경로설정
+    <string name="roter_text" translatable="false">출발지 설정 : </string>
+    <string name="roter_last" translatable="false">도착지 설정 : </string>
+    <string name="pat_text1" translatable="false">실시간버스정보</string>
+    <string name="pat_text2" translatable="false">111번</string>
+    <string name="pat_text3" translatable="false"></string>
+    <!--<string name="pat_text3">5분뒤 도착</string>-->
+    <string name="pat_text4" translatable="false">현재위치 : </string>
+    <string name="pat_text5" translatable="false"></string>
+    <!--<string name="pat_text5">제주공항</string>-->
+    <string name="pat_text6" translatable="false">환승지 도착예정</string>
+    <string name="pat_text7" translatable="false">환승지</string>
+    <string name="pat_text8" translatable="false">분도착</string>
+    <string name="pat_text9" translatable="false">810번</string>
+    <string name="pat_text10" translatable="false">분출발</string>
+    <string name="pat_text11" translatable="false">도착예정</string>
+    <string name="pat_text12" translatable="false">분도착</string>
+    <string name="pat_text13" translatable="false">대천환승센터</string>
+    <string name="no_data" translatable="false">정보없음</string>
+    <string name="select" translatable="false">입력</string>
+    <string name="arrive" translatable="false">도착알림</string>
+    <string name="arrivethis" translatable="false">도착했습니다</string>
+    <string name="arrivecheck" translatable="false">확인</string>
+
+    <string name="not" translatable="false">이 버스가 아닙니다.</string>
+    <string name="get" translatable="false">타세요!</string>
+
+    //번호입력
+    <string name="inputnum" translatable="false">번호입력</string>
+    <string name="input" translatable="false">탑승하실 버스번호를 입력해주세요.</string>
+    <string name="canle" translatable="false">취소</string>
+    <string name="select1" translatable="false">번호 클릭시 버스회사 전화로 바로 연결됩니다.</string>
+
+
+    //노선검색
+    <string name="hint" translatable="false">버스번호를 입력해주세요.</string>
+    <string name="busname" translatable="false">버스번호</string>
+
+
+    //back
+    <string name="back" translatable="false">뒤로버튼을 한번 더 누르시면 종료됩니다.</string>
+
+
+    //검색중
+    <string name="station" translatable="false">주변버스정류장검색중</string>
+</resources>

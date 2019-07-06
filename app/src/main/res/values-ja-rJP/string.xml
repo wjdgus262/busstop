@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_button1" translatable="false">Realtime bus照会</string>
+    <string name="main_button2" translatable="false">バス運行時刻表</string>
+    <string name="main_button3" translatable="false">搭乗するバスチェック</string>
+    <string name="main_button4" translatable="false">バス紛失物を探す</string>
+    <string name="main_button5" translatable="false">バス旅行レビュー</string>
+    <string name="main_button6" translatable="false">言語の再設定</string>
+
+
+    //경로설정
+    <!--<string name="roter_text">設定出發地</string>-->
+    <!--<string name="roter_last">設定目的地</string>-->
+    <!--<string name="pat_text1">實時巴士信息보</string>-->
+    <!--<string name="pat_text2">121번</string>-->
+    <!--<string name="pat_text3">5분뒤 도착</string>-->
+    <!--<string name="pat_text4">현재위치 : </string>-->
+    <!--<string name="pat_text5">제주공항</string>-->
+    <!--<string name="pat_text6">轉機到達</string>-->
+    <!--<string name="pat_text7">換乘地</string>-->
+    <!--<string name="pat_text8">12:00분도착</string>-->
+    <!--<string name="pat_text9">810번</string>-->
+    <!--<string name="pat_text10">12:00분출발</string>-->
+    <!--<string name="pat_text11">到達預定時間</string>-->
+    <!--<string name="pat_text12">13:00분도착</string>-->
+
+    <string name="roter_text" translatable="false">現在地設定 : </string>
+    <string name="roter_last" translatable="false">行先設定 : </string>
+    <!--<string name="pat_text1">リアルタイムバス情報</string>-->
+    <!--<string name="pat_text2">111番</string>-->
+    <!--<string name="pat_text3">5分に到着</string>-->
+    <!--<string name="pat_text4">現在地</string>-->
+    <!--<string name="pat_text5">済州空港t</string>-->
+    <!--<string name="pat_text6">到着予定</string>-->
+    <!--<string name="pat_text7">Transit point</string>-->
+    <!--<string name="pat_text8">12:00분도착</string>-->
+    <!--<string name="pat_text9">810番</string>-->
+    <!--<string name="pat_text10">12:00분출발</string>-->
+    <!--<string name="pat_text11">Arrive</string>-->
+    <!--<string name="pat_text12">13:00분도착</string>-->
+
+
+
+    <string name="pat_text1" translatable="false">Realtime bus照会</string>
+    <string name="pat_text2" translatable="false">111 </string>
+    <string name="pat_text3" translatable="false"></string>
+    <!--<string name="pat_text3">5분뒤 도착</string>-->
+    <string name="pat_text4" translatable="false">現在の位置 : </string>
+    <string name="pat_text5" translatable="false"></string>
+    <!--<string name="pat_text5">제주공항</string>-->
+    <string name="pat_text6" translatable="false">到着予定 : </string>
+    <string name="pat_text7" translatable="false">フヮンスンジ : </string>
+    <string name="pat_text8" translatable="false">分</string>
+    <string name="pat_text9" translatable="false">810</string>
+    <string name="pat_text10" translatable="false">分出発</string>
+    <string name="pat_text11" translatable="false">到着予定</string>
+    <string name="pat_text12" translatable="false">分に到着</string>
+    <string name="pat_text13" translatable="false">大川乗り換えセンター</string>
+    <string name="no_data" translatable="false">情報検索</string>
+    <string name="select" translatable="false">入力</string>
+    <string name="arrive" translatable="false">到着のお知らせ</string>
+    <string name="arrivethis" translatable="false">到着しました</string>
+    <string name="arrivecheck" translatable="false">確認</string>
+    <string name="not" translatable="false">このバスはありません</string>
+    //노선검색
+    <string name="hint" translatable="false">バスの番号を入力してください</string>
+    <string name="busname" translatable="false">バス番号</string>
+
+    <string name="get" translatable="false">乗ってください</string>
+    <string name="back" translatable="false">もう一度後ボタンを押すと終了します</string>
+
+
+    <string name="inputnum" translatable="false">番号入力</string>
+    <string name="input" translatable="false">搭乗するバスの番号を入力してください</string>
+    <string name="canle" translatable="false">キャンセル</string>
+    <string name="select1" translatable="false">番号クリックでバス会社の電話で連結されます</string>
+
+
+    //검색중
+    <string name="station" translatable="false">周辺バス停検索中</string>
+</resources>

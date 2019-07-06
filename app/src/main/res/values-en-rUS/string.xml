@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //메인
+    <string name="main_button1" translatable="false">Real-time arrival</string>
+    <string name="main_button2" translatable="false">Bus timetable</string>
+    <string name="main_button3" translatable="false">Check Bus</string>
+    <string name="main_button4" translatable="false">Lost &amp; Found</string>
+    <string name="main_button5" translatable="false">Bus tour review</string>
+    <string name="main_button6" translatable="false">Reset Language</string>
+
+
+    //경로설정
+    <string name="roter_text" translatable="false">Departure : </string>
+    <string name="roter_last" translatable="false">Destination : </string>
+    <string name="pat_text1" translatable="false">Real-time arrival</string>
+    <string name="pat_text2" translatable="false">111 </string>
+    <string name="pat_text3" translatable="false"></string>
+    <!--<string name="pat_text3">5분뒤 도착</string>-->
+    <string name="pat_text4" translatable="false">Current Location : </string>
+    <string name="pat_text5" translatable="false"></string>
+    <!--<string name="pat_text5">제주공항</string>-->
+    <string name="pat_text6" translatable="false">Arrival scheduled</string>
+    <string name="pat_text7" translatable="false">a transfer point</string>
+    <string name="pat_text8" translatable="false">min. arrival</string>
+    <string name="pat_text9" translatable="false">810</string>
+    <string name="pat_text10" translatable="false">min. start</string>
+    <string name="pat_text11" translatable="false">Arrival scheduled</string>
+    <string name="pat_text12" translatable="false"> min. arrival</string>
+    <string name="pat_text13" translatable="false">Daecheon Transfer Center</string>
+    <string name="no_data" translatable="false">No result</string>
+    <string name="select" translatable="false">Enter</string>
+    <string name="arrive" translatable="false">Arrival Notification</string>
+    <string name="arrivethis" translatable="false">arrived</string>
+    <string name="arrivecheck" translatable="false">Check</string>
+    <string name="get" translatable="false">Get In!</string>
+    <string name="not" translatable="false">This is not the bus</string>
+
+
+
+    //노선검색
+    <string name="hint" translatable="false">Enter the bus number.</string>
+    <string name="busname" translatable="false">Number</string>
+
+    <string name="back" translatable="false">Press the Back button one more time to end.</string>
+
+    <string name="inputnum" translatable="false">Type the number</string>
+    <string name="input" translatable="false">Please type the bus number to take.</string>
+    <string name="canle" translatable="false">Cancel</string>
+    <string name="select1" translatable="false">You can dial the bus company by pressing the number.</string>
+
+    <!--<string name="pat_en_text1">Real-time Bus arrival info</string>-->
+    <!--<string name="pat_en_text2">JEJU CITY TOUR</string>-->
+    <!--<string name="pat_en_text3">Here : </string>-->
+    <!--<string name="pat_en_text4">JejuAirpot</string>-->
+    <!--<string name="pat_en_text5">Destination :</string>-->
+    <!--<string name="pat_en_text6">Arrival 12:20</string>-->
+    <!--<string name="pat_text1">Real-time Bus arrival info</string>-->
+    <!--<string name="pat_text2">111</string>-->
+    <!--<string name="pat_text3">5분뒤 도착</string>-->
+    <!--<string name="pat_text4">Here : </string>-->
+    <!--<string name="pat_text5">JejuAirpot</string>-->
+    <!--<string name="pat_text6">Destination :</string>-->
+    <!--<string name="pat_text7">Transit point</string>-->
+    <!--<string name="pat_text8">12:00분도착</string>-->
+    <!--<string name="pat_text9">810번</string>-->
+    <!--<string name="pat_text10">12:00분출발</string>-->
+    <!--<string name="pat_text11">Arrive : </string>-->
+    <!--<string name="pat_text12">13:00분도착</string>-->
+
+
+    //검색중
+    <string name="station" translatable="false">Nearby bus stops...</string>
+</resources>

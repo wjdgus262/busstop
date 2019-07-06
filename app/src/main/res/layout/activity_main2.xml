@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:id="@+id/edit_ocr"/>
+
+    <!--<com.ssomai.android.scalablelayout.ScalableLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_above="@+id/main_textview"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:layout_marginRight="20dp"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:background="@drawable/logo2_1"-->
+        <!--app:scale_base_height="100"-->
+        <!--app:scale_base_width="410"></com.ssomai.android.scalablelayout.ScalableLayout>-->
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:layout_width="276dp"
+            android:layout_height="74dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/finallogo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="2dp"-->
+            <!--android:layout_marginRight="2dp"-->
+            <!--android:layout_marginTop="40dp"-->
+            <!--android:orientation="horizontal"-->
+            <!--&gt;-->
+
+            <!--<Button-->
+                <!--android:id="@+id/pathbutton"-->
+                <!--android:layout_width="175dp"-->
+                <!--android:layout_height="100dp"-->
+                <!--android:background="@drawable/buttonshape"-->
+                <!--android:drawableTop="@drawable/gps"-->
+                <!--android:paddingTop="10dp"-->
+                <!--android:text="@string/main_button1"-->
+                <!--android:textColor="#030303"-->
+                <!--android:textSize="23sp"-->
+                <!--android:layout_weight="1"/>-->
+
+            <!--<Button-->
+                <!--android:id="@+id/nolinebutton"-->
+
+                <!--android:layout_width="175dp"-->
+                <!--android:layout_height="100dp"-->
+                <!--android:layout_marginLeft="10dp"-->
+
+                <!--android:background="@drawable/buttonshape"-->
+                <!--android:drawableTop="@drawable/noline"-->
+                <!--android:paddingTop="10dp"-->
+                <!--android:text="@string/main_button2"-->
+                <!--android:textColor="#030303"-->
+                <!--android:textSize="23sp"-->
+                <!--android:layout_weight="1"/>-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="2dp"-->
+            <!--android:layout_marginRight="2dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<Button-->
+                <!--android:id="@+id/carbutton"-->
+
+                <!--android:layout_width="175dp"-->
+                <!--android:layout_height="100dp"-->
+                <!--android:background="#FFFFFF"-->
+                <!--android:drawableTop="@drawable/carm"-->
+                <!--android:paddingTop="10dp"-->
+                <!--android:text="@string/main_button3"-->
+                <!--android:textColor="#030303"-->
+                <!--android:textSize="23sp"-->
+                <!--android:layout_weight="1"/>-->
+
+            <!--<Button-->
+                <!--android:id="@+id/selectbutton"-->
+                <!--android:layout_width="175dp"-->
+                <!--android:layout_height="100dp"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:background="#FFFFFF"-->
+                <!--android:drawableTop="@drawable/select"-->
+                <!--android:paddingTop="10dp"-->
+                <!--android:text="@string/main_button4"-->
+                <!--android:textColor="#030303"-->
+                <!--android:textSize="23sp"-->
+                <!--android:layout_weight="1"/>-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="2dp"-->
+            <!--android:layout_marginRight="2dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/buttonshape2"-->
+                <!--android:text="@string/main_button5"-->
+                <!--android:textSize="23sp"-->
+                <!--android:id="@+id/reviewbutton"-->
+                <!--android:layout_weight="1"/>-->
+
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:background="@drawable/buttonshape2"-->
+                <!--android:text="@string/main_button6"-->
+                <!--android:textSize="23sp"-->
+                <!--android:id="@+id/garbutton"-->
+                <!--android:layout_weight="1"/>-->
+        <!--</LinearLayout>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--/>-->
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp">
+
+            <Button
+                android:id="@+id/pathbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape"
+                android:drawableTop="@drawable/re_icon1"
+                android:paddingTop="10dp"
+                android:text="@string/main_button1"
+
+                />
+            <Button
+                android:id="@+id/nolinebutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/re_icon2"
+                android:text="@string/main_button2"
+                android:paddingTop="10dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape"
+                android:drawableTop="@drawable/re_icon3"
+                android:text="@string/main_button3"
+                android:id="@+id/carbutton"
+                android:paddingTop="10dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape"
+                android:layout_marginLeft="5dp"
+                android:drawableTop="@drawable/re_icon4"
+                android:text="@string/main_button4"
+                android:paddingTop="13dp"
+                android:id="@+id/selectbutton"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape"
+                android:drawableTop="@drawable/re_icon5"
+                android:text="@string/main_button5"
+                android:paddingTop="10dp"
+                android:id="@+id/reviewbutton"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape"
+                android:layout_marginLeft="5dp"
+
+                android:drawableTop="@drawable/re_icon6"
+                android:text="@string/main_button6"
+                android:paddingTop="10dp"
+                android:id="@+id/popupbutton"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/banner2" />
+    </LinearLayout>
+</LinearLayout>
